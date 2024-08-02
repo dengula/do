@@ -19,14 +19,25 @@ import {
 } from "https://www.gstatic.com/firebasejs/10.12.4/firebase-auth.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA29tghibbQQduIje9Z0eKnTtN5zWStqEQ",
-  authDomain: "saylani-project-23.firebaseapp.com",
-  projectId: "saylani-project-23",
-  storageBucket: "saylani-project-23.appspot.com",
-  messagingSenderId: "686067234308",
-  appId: "1:686067234308:web:b449e104622ccc343ea751",
-  measurementId: "G-NQ9C85DNC7"
+
+  apiKey: "AIzaSyCaba7HBfhx1xBPNf_AnuEjczyKuKrcUXU",
+
+  authDomain: "mewc-10346.firebaseapp.com",
+
+  databaseURL: "https://mewc-10346-default-rtdb.firebaseio.com",
+
+  projectId: "mewc-10346",
+
+  storageBucket: "mewc-10346.appspot.com",
+
+  messagingSenderId: "649960225966",
+
+  appId: "1:649960225966:web:1c7c9f2ef8fdddeb02813f",
+
+  measurementId: "G-FVLMCBTJNZ"
+
 };
+
 
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
